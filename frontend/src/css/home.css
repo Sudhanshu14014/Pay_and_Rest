@@ -1,0 +1,66 @@
+.headingHome {
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay {
+    color: orange;
+    padding-right: 1rem;
+}
+
+.rest {
+    color: purple;
+    padding-left: 1rem;
+}
+
+.details {
+    font-weight: 500;
+    margin: 2rem;
+    padding: 0 3rem;
+}
+
+.buttonsignup {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.signupOwner {
+    height: 4rem;
+    width: 20rem;
+    border: none;
+    border-radius: 1.5rem;
+    margin: 1rem 3rem;
+    padding: 1rem 4rem;
+    font-weight: 600;
+    background-color: orange;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.signupSeeker {
+    height: 4rem;
+    width: 20rem;
+    border: none;
+    border-radius: 1.5rem;
+    margin: 1rem 3rem;
+    padding: 1rem 4rem;
+    font-weight: 600;
+    background-color: purple;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.signupOwner:hover {
+    background-color: white;
+    border: 0.2rem solid black;
+    color: black;
+}
+
+.signupSeeker:hover {
+    background-color: white;
+    border: 0.2rem solid black;
+    color: black;
+}

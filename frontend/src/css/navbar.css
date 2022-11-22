@@ -1,0 +1,27 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-link:hover {
+    color: orange;
+}

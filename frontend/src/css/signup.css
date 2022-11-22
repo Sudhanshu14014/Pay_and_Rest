@@ -1,0 +1,167 @@
+.mainframe {
+    display: block;
+    max-width: 50rem;
+    margin: 2rem auto;
+    border-image: linear-gradient(45deg, purple, orange) 1 round;
+    border-color: transparent;
+    border-width: 0.5rem;
+    border-style: solid;
+}
+
+.input-box {
+    max-width: 45rem;
+    margin: auto;
+}
+
+.role-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    width: 42rem;
+}
+
+.chooserole {
+    border: none;
+    padding: 1rem 3rem;
+    margin: 1rem 2rem;
+    height: 4rem;
+    border-radius: 1.5rem;
+    width: 21rem;
+}
+
+.owner-btn {
+    background-color: purple;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.seeker-btn {
+    background-color: orange;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.clicked-btn {
+    background-color: white;
+    border: 0.2rem solid black;
+    font-weight: 700;
+    color: black;
+}
+
+.chooserole:hover {
+    background-color: white;
+    border: 0.2rem solid black;
+    font-weight: 700;
+    color: black;
+}
+
+.input-heading {
+    background: -webkit-linear-gradient(45deg, purple, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 2rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.inputlabels {
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.25rem;
+    padding-bottom: 0.8rem;
+    color: purple;
+    font-weight: 600;
+}
+
+.ownerinput {
+    border: none;
+    border-bottom: 0.1rem black solid;
+    padding: 0.25rem 5rem;
+    padding-left: 0.3rem;
+    padding-right: 9rem;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.checkbox {
+    height: 1.5em;
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+.ownersubmit {
+    border-style: none;
+    padding: 1rem 3rem;
+    margin-bottom: 3rem;
+    background-color: purple;
+    color: white;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 4rem;
+    width: 10rem;
+}
+
+.ownersubmit:hover {
+    background-color: white;
+    border: 0.2rem solid black;
+    font-weight: 700;
+    color: black;
+}
+
+#login-btn {
+    background-color: orange;
+}
+
+#login-btn:hover {
+    background-color: white;
+}
+
+.pop-up-box {
+    margin: 3rem;
+    padding: 4rem;
+    background-image: linear-gradient(to top right, purple, orange);
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.pop-up-heading {
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.pop-up-login {
+    background-image: linear-gradient(to top right, purple, orange);
+    border: 0.2rem solid white;
+    color: white;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 4rem;
+    width: 10rem;
+    margin: 2rem 13rem;
+}
+
+.pop-up-login:hover {
+    background-color: white;
+    background-image: none;
+    border: 0.2rem solid black;
+    font-weight: 700;
+    color: black;
+}
+
+/* Two issues:-1). Border radius and 2). box around the input when we type or focus */
